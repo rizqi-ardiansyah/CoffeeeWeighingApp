@@ -1,64 +1,101 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+# Smart Coffee Weighing
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+A coffee weighing system equipped with an Internet of Things (IoT) device is an innovation that aims to improve efficiency and accuracy in the process of weighing coffee beans. The background to creating this system is based on the need for the coffee industry to better control and monitor the quantity and quality of coffee beans used in the production process
 
-## About Laravel
+ ![image](https://github.com/rizqi-ardiansyah/CoffeeeWeighingApp/assets/86498942/5d0e46e8-3165-4ae1-b9f8-6de2162286fe)
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+# Feature
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+### 1. Login
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- Login can be done by the admin or the employee. Admins can access all features, while employees only have a few features
+  
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/d7e3e0a7-2663-4f9f-9d11-fb548963a4be" width="800" />
 
-## Learning Laravel
+  *Seeder the fake account first so you can get a random account to log into the system*
+ 
+### 2. Dashboard
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+- The dashboard displays information on the number of workers, the amount of coffee data, and the total weight of coffee
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1500 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/df4b8d6d-ce5b-40d2-8094-7fd7fe73462d" width="800" />
 
-## Laravel Sponsors
+### 3. Manage Workers
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+- Worker management is used to manage worker data in which there are features to add data, edit and delete data
 
-### Premium Partners
+  *Employee data display*
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/6d9d0d63-42dd-4022-844a-f1e26b3d7237" width="800" />
 
-## Contributing
+  *Display adds employee data*
+  
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/334e89ae-4b5f-40a0-811f-63d793bc1873" width="800" />
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+  *Display updates employee data*
+  
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/6fef8739-2f9f-4c83-bc98-c879c848ecf9" width="800" />
 
-## Code of Conduct
+  *Display deletes employee data*
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/04f1ada6-b9ef-4d46-aace-f1420341afa3" width="800" />
 
-## Security Vulnerabilities
+### 4. Manage Coffee
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+- Coffee management is used to manage the weighing process of coffee that is weighed using IOT. The weight of this copy will be sent automatically from the item detection sensor
 
-## License
+  *Coffee data display*
+  
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/30a44f05-87ba-4256-8a3c-99b3c61ab676" width="800" />
+  
+  *Display adds coffee data manually*
+  
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/e242f35e-5d6a-4b89-a306-b5383bf18c37" width="800" />
+  
+  *Display deletes coffee data*
+  
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/3b4c3a23-dbc0-4572-b749-66ee55562aee" width="800" />
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### 5. Report
+
+- The report feature will assist employees in accumulating the data that has been obtained and can be printed in excel and pdf format
+
+  <img src="https://github.com/rizqi-ardiansyah/simoyam/assets/86498942/7d9c2d32-c675-4be9-a33d-eb6473e6859f" width="800" />
+
+# Installation
+
+1. Clone the repository
+   
+2. Install composer
+    ```bash
+    composer install
+    ```
+    
+3. Copy file .env.example
+     ```bash
+    cp .env.example .env
+    ```
+     
+5. Generate the key
+    ```bash
+    php artisan key:generate
+    ```
+
+8. Do the migrations first
+    ```sh
+    php artisan:migrate
+    ```
+
+9. Do the seeder first
+    ```sh
+    php artisan db:seed
+    ```
+    
+10. Run projects
+    ```sh
+    php artisan serve
+    ```
+    
+# License
+
+The MIT License (MIT) 2023 - [Rizqi Ardiansyah](https://github.com/rizqi-ardian/). Please have a look at the [LICENSE.md](LICENSE.md) for more details.
